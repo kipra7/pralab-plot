@@ -1,0 +1,22 @@
+[project]
+name = "pralab-plot"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Kipra7", email = "124507187+Kipra7@users.noreply.github.com" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "bokeh>=3.7.1",
+    "ipykernel>=6.29.5",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[dependency-groups]
+dev = [
+    "jupyterlab>=4.3.6",
+]
